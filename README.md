@@ -1,8 +1,12 @@
-# React + Vite
+<h1>Εργασία στις Μηχανές Αναζήτησης</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Ομάδα</h2>
+  <ul>
+    <li>Νασοπούλος Βασίλης</li>
+    <li>Κασούνης Παναγιώτης</li>
+  </ul>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>Περίληψη</h2>
+  <p>Αυτό το αποθετήριο δημιουργήθηκε ως μέρος μιας εργασίας πάνω στις Μηχανές Αναζήτησης. Στόχος μας ήταν να εξερευνήσουμε
+    διάφορες τεχνικές και προσεγγίσεις στον τομέα των μηχανών αναζήτησης και να αναπτύξουμε λογισμικό που να επιτρέπει αποδοτική
+    αναζήτηση πληροφοριών.</p>
