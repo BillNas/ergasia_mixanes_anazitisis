@@ -43,31 +43,32 @@ const CategorySearch = () => {
 
     return (
         <div className="container mx-auto px-2 md:px-4 lg:px-6 py-6">
+            <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Προσαρμοσμένη αναζήτηση</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="rounded-lg overflow-hidden shadow-md">
+                <div className="rounded-xl oveflow-hidden shadow-xl  m-12 p-12" style={{ backgroundImage: "url('https://img.freepik.com/premium-photo/photo-closeup-shot-delicious-food_829042-89.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="p-4">
-                        <h2 className="text-xl font-bold mb-2">Εστιατόρια</h2>
-                        <div className="mt-2">
+                        <h2 className="text-2xl backdrop-blur-md p-4 text-center text-white font-bold mb-2">Εστιατόρια</h2>
+                        <div className="mt-2 text-center p-12">
                             <button
                                 type="button"
                                 onClick={() => fetchData('estiatoria')}
-                                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             >
                                 Αναζήτηση
                             </button>
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg overflow-hidden shadow-md">
+                <div className="rounded-xl oveflow-hidden shadow-xl  m-12 p-12" style={{ backgroundImage: "url('https://img.freepik.com/premium-photo/collection-makeup-including-makeup-kit-bottle-liquid_911712-1366.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="p-4">
-                        <h2 className="text-xl font-bold mb-2">
-                            Γυναικεία και ανδρικά καλλυντικά
+                        <h2 className="text-2xl backdrop-blur-sm p-4 text-center text-white font-bold mb-2">
+                            Καλλυντικά και αρώματα
                         </h2>
-                        <div className="mt-2">
+                        <div className="mt-2 text-center p-12">
                             <button
                                 type="button"
                                 onClick={() => fetchData('kallyntika')}
-                                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             >
                                 Αναζήτηση
                             </button>
